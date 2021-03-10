@@ -1,16 +1,20 @@
-import Hello from 'components/hello/Hello'
+import Title from 'components/title/Title'
 import Button from 'components/button/Button'
 
 function App() {
   return (
     <>
-      <Hello text="Hola prop" />
-      <Hello text="Hola prop2" />
+      <Title>
+        Esto es un Title
+      </Title>
+      <Title secondary >
+        Title secondary
+      </Title>
       <Button>
-        Click aqui
+        Boton primario
       </Button>
-      <Button>
-        Cancelar
+      <Button secondary >
+        Boton secundario
       </Button>
     </>
   );
