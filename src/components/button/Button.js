@@ -1,8 +1,14 @@
+import classNames from "classnames"
 import './Button.css'
 
 function Button(props) {
+  const styles = classNames(
+    'button',
+    { "button--secondary": props.secondary }
+  )
+
   return (
-    <button className="button">{props.children}</button>
+    <button className={styles}>{props.children}</button>
   )
 }
 
