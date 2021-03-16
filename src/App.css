@@ -1,0 +1,11 @@
+.container {
+  padding: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container .card {
+  margin-right: 10px;
+}

@@ -1,0 +1,51 @@
+.containerPrice {
+  background-color: #178255;
+  border-radius: 8px;
+  max-width: 410px;
+  /* creo este padding esta mal aqui */
+  padding: 32px; 
+}
+
+.titlePrice {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.number {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.0;
+  color: white;
+}
+
+.month {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.0;
+  color: #BEF4DE;
+}
+
+.descriptionPackage {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+}
+
+.checkBenefic {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.buy {
+  background-color: white;
+  /* este es e border que te decia que no lograba cambiar */
+  border-radius: 4;
+  color: #178257;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.0;
+}
+

@@ -1,22 +1,12 @@
-import Title from 'components/title/Title'
-import Button from 'components/button/Button'
+import Price from 'components/price/Price'
+import './App.css'
+
 
 function App() {
   return (
-    <>
-      <Title>
-        Esto es un Title
-      </Title>
-      <Title secondary >
-        Title secondary
-      </Title>
-      <Button>
-        Boton primario
-      </Button>
-      <Button secondary >
-        Boton secundario
-      </Button>
-    </>
+    <section className="container">
+      <Price />
+    </section>
   );
 }
 

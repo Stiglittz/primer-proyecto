@@ -1,0 +1,37 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 456px;
+  border: 2px solid white;
+}
+
+.card:hover {
+  border: 2px solid #80D4FF;
+}
+
+.card-icon {
+  display: flex;
+  background-color: #E5F7FF;
+  padding: 16px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.card-tile {
+  color: #2C3F49;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  color: #506672;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+}
