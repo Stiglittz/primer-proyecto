@@ -39,6 +39,10 @@
   color: white;
 }
 
+.checkBenefic img {
+  width: 24px;
+}
+
 .buy {
   background-color: white;
   /* este es e border que te decia que no lograba cambiar */
