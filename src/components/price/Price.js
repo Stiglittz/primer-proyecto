@@ -33,7 +33,9 @@ function Price() {
           <p>Where Can You Find Unique</p>
         </div>
       </div>
-      <button className="buy">Click to buy</button>
+      <div className="click">
+        <button>Click to buy</button>
+      </div>
     </div>
   );
 }
