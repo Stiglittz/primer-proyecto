@@ -1,4 +1,4 @@
-.card {
+.card-container {
   background-color: white;
   border-radius: 8px;
   padding: 16px;
@@ -8,30 +8,35 @@
   border: 2px solid white;
 }
 
-.card:hover {
+.card-container:hover {
   border: 2px solid #80D4FF;
 }
 
-.card-icon {
-  display: flex;
+.icon-background {
   background-color: #E5F7FF;
   padding: 16px;
-  margin-right: 16px;
   border-radius: 4px;
+
 }
 
-.card-tile {
-  color: #2C3F49;
+.title-description {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.title-description h2 {
   font-size: 24px;
   font-weight: 600;
+  color: #2C3F49;
   margin-top: 0;
   margin-bottom: 12px;
+  
 }
 
-.card-text {
-  color: #506672;
-  font-weight: 400;
+.title-description p {
   font-size: 16px;
-  margin: 0;
+  font-weight: 400;
   line-height: 1.5;
+  color: #506672;
+  margin: 0;
 }
